@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../img/logo.png';
+import logo from '../../img/logo.png';
 import css from './Header.module.css'
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
                 alt="Бессмертный Род"
                 className={ css.headerLogo } />
             <a href="#" className={ css.headerLink }>
-                Бессмертный Род
+                Код 7и
             </a>
             <div className={ css.headerLogin }>login</div>
         </header>

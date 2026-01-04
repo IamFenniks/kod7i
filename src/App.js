@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './components/static-comp/Header/Header';
-import Nav from './components/static-comp/Nav/Nav';
-import Main from './components/content-comp/Main';
-import Footer from './components/static-comp/Footer/Footer';
+import Header from './UI/components/static-comp/Header/Header';
+import Nav from './UI/components/static-comp/Nav/Nav';
+import Main from './UI/components/content-comp/Main';
+import Footer from './UI/components/static-comp/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 
 const App = () => {
