@@ -9,7 +9,6 @@ const Nav = () => {
         <nav className={css.appNav}>
             <div className={css.li}>
                 <Link to="profile">
-                    <i class="fa-sharp fa-regular fa-address-card"></i>
                     Кабинет
                 </Link>
             </div>
