@@ -1,6 +1,6 @@
-.dialogs{
+.chat{
     display: grid;
     grid-template-columns: 25% 1fr;
 }
 
-.dialogs div{padding: 6px 0 ;}
+.chat div{padding: 6px 0 ;}

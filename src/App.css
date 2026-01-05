@@ -4,10 +4,10 @@
   text-align: center;
   display: grid;
   grid-template-areas:
-    'h h h'
-    'n n n'
-    'm m m'
-    'f f f'
+    'h h h h h h'
+    'n m m m m m'
+    'n m m m m m'
+    'f f f f f f'
   ;
   font-family: Montserrat;
   font-size: calc(10px + 2vmin);
@@ -31,7 +31,6 @@
 }
 
 .appHeader,
-.appNav,
 .appFooter {
   /* height: 30px; */
   padding: 12px;
@@ -44,16 +43,6 @@
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-/* ---------------------------------------------------- */
-
-.appNav {
-  /* height: 25px; */
-  background-color: #ffffff;
-  font-weight: 500;
-  color: #282c34;
-  border-bottom: 1px solid #282c34;
 }
 
 /* ---------------------------------------------------- */

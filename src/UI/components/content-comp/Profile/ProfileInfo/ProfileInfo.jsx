@@ -1,6 +1,6 @@
 import React from 'react';
 import css from './ProfileInfo.module.css';
-import profAva from '../../../img/для-портфолио.jpg'
+import profAva from '../../../../img/для-портфолио.jpg'
 
 const ProfileInfo = () => {
   return (

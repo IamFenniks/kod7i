@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './Profile/Profile';
-import Dialogs from './Dialogs/Dialogs';
+import Chat from './Chat/Chat';
 import { Route, Routes } from 'react-router-dom';
 
 const Main = () => {
@@ -8,7 +8,7 @@ const Main = () => {
     <main className='appMain'>
       <Routes>
         <Route path="/profile" element={<Profile />} />
-        <Route path="/chat"    element={<Dialogs />} />
+        <Route path="/chat"    element={<Chat />} />
       </Routes>
     </main>
   );

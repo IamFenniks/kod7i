@@ -1,5 +1,5 @@
 import React from 'react';
-import css from './Chat.module.css';
+import css from './Dialogs.module.css';
 import ChatItem from './ChatItem/ChatItem';
 
 let chItemData = [
@@ -10,7 +10,7 @@ let chItemData = [
   {id: 5, name: 'Шопот фронта'}
 ];
 
-const Chat = (props) => {
+const Dialogs = (props) => {
   return (
     <div className={css.allChats}>
       <h4>Все чаты</h4>
@@ -26,4 +26,4 @@ const Chat = (props) => {
   );
 }
 
-export default Chat;
+export default Dialogs;

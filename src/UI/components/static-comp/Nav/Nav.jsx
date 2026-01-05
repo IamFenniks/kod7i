@@ -6,25 +6,21 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
     return (
-        <nav className='appNav'>
+        <nav className={css.appNav}>
             <div className={css.li}>
                 <Link to="profile">
+                    <i class="fa-sharp fa-regular fa-address-card"></i>
                     Кабинет
                 </Link>
             </div>
             <div className={css.li}>
                 <Link to="chat">
-                    Диалоги
+                    Общение
                 </Link>
             </div>
             <div className={css.li}>
                 <Link to="news">
-                    News
-                </Link>
-            </div>
-            <div className={css.li}>
-                <Link to="music">
-                    Music
+                    Новости
                 </Link>
             </div>
             <div className={css.li}>
